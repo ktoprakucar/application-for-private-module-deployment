@@ -2,7 +2,7 @@ from src.application.file_reader import FileReader
 from src.application.nlp_processor import NLPProcessor
 
 
-class Application:
+class LanguageApplication:
 
     def __init__(self):
         self._nlp_processor = NLPProcessor()
